@@ -2,14 +2,14 @@
 
 # Install Expo
 
-```npm install -g expo-cli
-
+```
+npm install -g expo-cli
 ```
 
 # Create the project
 
-```expo init AwesomeProject
-
+```
+expo init AwesomeProject
 ```
 
 # Run project
@@ -45,7 +45,6 @@ _create .prettierrc.js_
 
 ```
 npm i husky lint-staged
-
 ```
 // .prettierrc.js
 
