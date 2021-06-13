@@ -21,14 +21,14 @@ expo init AwesomeProject
 
 **Getting started with Eslint and prettierrc.js**
 
-_Install Eslint_
+**_Install Eslint_**
 
 ```
 yarn add eslint @react-native-community/eslint-config --dev
 
 ```
 
-_configuration file create .eslintrc.js_
+**configuration file create .eslintrc.js**
 
 ```
 // .eslintrc.js
@@ -39,12 +39,8 @@ module.exports = {
 };
 ```
 
-_create .prettierrc.js_
+**create .prettierrc.js**
 
-
-
-```
-npm i husky lint-staged
 ```
 // .prettierrc.js
 
@@ -53,17 +49,18 @@ module.exports = {
   singleQuote: true,
   trailingComma: 'all',
 };
+```
 
 **Open the package.json in your project and add the following under the scripts section**
 
 ```
 "lint": "eslint ."
 ```
-_[Now you can run npm run lint or yarn lint in your terminal and the linter will report both eslint and prettier issues.]_
 
+_Now you can run npm run lint or yarn lint in your terminal and the linter will report both eslint and prettier issues._
 
 **axios library for data fetch**
 
 ```
-yarn add axiox
+yarn add axios
 ```
